@@ -1,0 +1,11 @@
+gravity_constant = 6.67 * 10 ** (-11)
+light_speed = 3 * 10 ** 8
+Dirac_constant = 1.05 * 10 ** (-34)
+elementary_charge = 1.6 * 10 ** (-19)
+Boltzmann_constant = 1.4 * 10 ** (-23)
+magnetic_constant = 1.27 * 10 ** (-6)
+electric_constant = 8.85 * 10 ** (-12)
+acceleration_of_gravity = 9.8 
+electron_mass = 9.11 * 10 ** (-31)
+Euler_number = 2.7182818284
+Planck_constant = 6.63 * 10 ** (-34)
