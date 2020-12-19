@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np 
-from math import sin, pi
+from numpy import sin, pi
 
 def chart(a=5,b=4,A=1,B=1,title = 'Lissajous Curves'):
+  t = np.arange(1,10,0.01)
   delta = pi / 2
-  x = A * sin(a  + delta)
-  y = B * sin(b)
+  x = A * np.sin(a * t + delta)
+  y = B * np.sin(b * t)
   plt.plot(x,y,label = 'Lissajous')
   plt.title(title)
   plt.legend()
